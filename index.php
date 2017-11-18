@@ -7,6 +7,7 @@ error_reporting('E_All');
 //Подключение файлов системы
 define('ROOT', dirname(__FILE__));
 require_once(ROOT.'/components/Router.php');
+require_once(ROOT.'/components/Db.php');
 
 //Установки соединения с БД
 
